@@ -22,9 +22,7 @@ function AllPosts() {
             <h1 className='text-3xl font-bold mb-8'>All Posts</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                 {posts.map((post)=>(
-                    <div key={post.$id}>
-                        <PostCard slug={post.$id} title={post.title} featuredImage={post.featuredImage}/>
-                    </div>
+                        <PostCard key={post.$id} slug={post.$id} title={post.title} featuredImage={post.featuredImage}/>
                 ))}
             </div>
         </Containers>
