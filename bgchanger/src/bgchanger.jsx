@@ -2,9 +2,9 @@ import { useState } from "react";
 import './bgchanger.css'
 
 function Bgchanger() {
-  const [bgColor, setBgColor] = useState('white') // initial color
+  const [bgColor, setBgColor] = useState('white')
 
-  // Dynamically choose text color based on background
+ 
   const textColor = bgColor === 'black' ? 'white' : 'black';
 
   return (

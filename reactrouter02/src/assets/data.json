@@ -1,0 +1,7 @@
+{
+  "Jobs": [
+    { "id": 1, "title": "React", "salary": 10000, "location": "London" },
+    { "id": 2, "title": "Frontend", "salary": 20000, "location": "India" },
+    { "id": 3, "title": "Backend", "salary": 30000, "location": "Newyork" }
+  ]
+}
