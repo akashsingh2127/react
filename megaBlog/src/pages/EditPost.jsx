@@ -21,7 +21,8 @@ function EditPost() {
   return post?(
     <div className='py-8'>
         <Containers>
-            <PostForm post={post}/>        {/*here post acts as a prop which we r passing to PostForm component so that it can populate the form with existing post data for editing*/}
+            <PostForm post={post}/>        
+            {/*here post acts as a prop which we r passing to PostForm component so that it can populate the form with existing post data for editing*/}
         </Containers>
     </div>
   ):<div>Loading...</div>
